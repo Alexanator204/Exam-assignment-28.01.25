@@ -21,7 +21,7 @@ public class Sport
 {
     public string Name { get; set; }
     public List<Athlete> Athletes { get; set; } = new List<Athlete>();
-    public Dictionary<string, int> Results { get; set; } = new Dictionary<string, int>(); // Участник и его результат
+    public Dictionary<string, int> Results { get; set; } = new Dictionary<string, int>(); 
 }
 
 public class Olympics
