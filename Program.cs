@@ -13,7 +13,7 @@ public class Athlete
     public string Country { get; set; }
     public string Sport { get; set; }
     public DateTime DateOfBirth { get; set; }
-    public string Photo { get; set; } // Здесь можно использовать путь к файлу с фото
+    public string Photo { get; set; } 
     public int GoldMedals { get; set; }
 }
 
