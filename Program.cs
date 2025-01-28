@@ -76,7 +76,7 @@ public class OlympicsManager
         if (olympics != null)
         {
             Console.WriteLine($"Медальный зачет на Олимпиаде {year}:");
-            // Здесь реализация логики показа медального зачета
+            
         }
         else
         {
@@ -84,7 +84,7 @@ public class OlympicsManager
         }
     }
 
-    // Добавьте другие методы для отображения данных, например медалистов и статистику стран...
+    
 }
 
 class Program
@@ -93,7 +93,7 @@ class Program
     {
         OlympicsManager manager = new OlympicsManager();
 
-        // Пример добавления Олимпиады
+       
         Olympics olympics2024 = new Olympics
         {
             Year = 2024,
@@ -102,12 +102,12 @@ class Program
             HostCity = "Лос-Анджелес"
         };
 
-        // Добавляем вид спорта
+       
         Sport basketball = new Sport { Name = "Баскетбол" };
         basketball.Athletes.Add(new Athlete { FullName = "Иванов Иван", Country = "Россия", GoldMedals = 1 });
         olympics2024.AddSport(basketball);
 
-        // Добавляем олимпиаду менеджеру
+        
         manager.AddOlympics(olympics2024);
 
         // Меню приложения
